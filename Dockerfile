@@ -5,13 +5,13 @@ FROM node:14
 WORKDIR /usr/app
 
 # Copy the package.json and package-lock.json files to the working directory
-COPY package*.json .
+COPY package*.json /usr/app/
 
 # Install dependencies
 RUN npm install
 
 # Copy the rest of the application code to the working directory
-COPY . .
+COPY . /usr/app/
 
 # Expose the port your web application listens on
 EXPOSE 3000
