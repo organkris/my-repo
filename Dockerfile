@@ -19,3 +19,7 @@ EXPOSE 3000
 # Specify the command to run your web application using Node.js
 CMD ["node", "index.js"]
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6c1a34d3d8be697db67a0fc205cd37996cfd5335
