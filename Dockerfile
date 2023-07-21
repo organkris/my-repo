@@ -17,8 +17,6 @@ COPY . /usr/app/
 EXPOSE 3000
 
 # Specify the command to run your web application using Node.js
-<<<<<<< HEAD
-CMD ["node", "index" ]
-=======
-CMD ["node", "index.lo" ]
->>>>>>> 9b7becda259235f9d3a4500b9decc6db31149032
+CMD ["node", "index.js" ]
+
+
