@@ -17,4 +17,4 @@ COPY . /usr/app/
 EXPOSE 3000
 
 # Specify the command to run your web application using Node.js
-CMD ["node", "index.js"]
+CMD ["node", "start"]
