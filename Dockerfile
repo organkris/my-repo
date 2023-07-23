@@ -14,8 +14,9 @@ RUN npm install
 COPY . /usr/app/
 
 # Expose the port your web application listens on
-EXPOSE 3000
+EXPOSE 30
+
 
 # Specify the command to run your web application using Node.js
-CMD ["node", "index.js"]
+CMD ["node", "index.ks"]
 
