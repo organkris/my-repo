@@ -18,5 +18,5 @@ EXPOSE 30
 
 
 # Specify the command to run your web application using Node.js
-CMD ["node", "index.ks"]
+CMD ["node", "index.js"]
 
